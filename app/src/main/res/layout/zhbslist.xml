@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    android:layout_height="120dp">
+<!--    // 起终点、运行时间、票价、以及里程、巴士列表
+具有扩展显示该路线的各个站点功能。-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+
+    android:layout_weight="2">
+    <TextView
+        android:textSize="25dp"
+        android:gravity="center"
+        android:id="@+id/tv_start"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+    <ImageView
+        android:src="@drawable/ic_baseline_arrow_right_alt_24"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+    <TextView
+        android:textSize="25dp"
+        android:id="@+id/tv_end"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/tv_price"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:id="@+id/tv_km"
+            android:layout_weight="1"/>
+        <TextView
+            android:textSize="20dp"
+            android:gravity="center"
+            android:id="@+id/tv_date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+</RelativeLayout>

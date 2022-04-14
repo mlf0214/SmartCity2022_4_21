@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+<uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <application
+        android:allowBackup="true"
+        android:name=".util.MyApplication"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:usesCleartextTraffic="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity android:name=".ui.activity.BsThirActivity"/>
+        <activity android:name=".ui.activity.BSfourActivity"/>
+        <activity android:name=".ui.activity.BsXqActivity"/>
+        <activity android:name=".ui.activity.BsdateActivty"/>
+        <activity android:name=".ui.activity.DjBSActiivty"/>
+        <activity android:name=".ui.activity.ZHBSACtivity"/>
+        <activity android:name=".ui.activity.KDYActivity"/>
+        <activity android:name=".ui.activity.ZhuceActivity"/>
+        <activity android:name=".ui.activity.YjkfActivity"/>
+        <activity android:name=".ui.activity.UserSetActivity"/>
+        <activity android:name=".ui.activity.PsdSetActivity"/>
+        <activity android:name=".ui.activity.NewsXqActivity"/>
+        <activity android:name=".ui.activity.MainActivity"/>
+        <activity android:name=".ui.activity.DyxuexiActivity"/>
+        <activity android:name=".ui.activity.XXKCActivity"/>
+        <activity android:name=".ui.activity.ZzhdActivity"/>
+        <activity android:name=".ui.activity.JyXcActivity"/>
+        <activity android:name=".ui.activity.SspActiivty"/>
+        <activity
+            android:name=".ui.activity.LogActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

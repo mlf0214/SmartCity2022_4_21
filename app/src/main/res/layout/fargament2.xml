@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolabr"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <RadioGroup
+                android:id="@+id/rg"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <RadioButton
+                    android:id="@+id/rb1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:button="@null"
+                    android:text="全部服务"
+                    android:textColor="@color/select_rab1"
+                    android:gravity="center"
+                    android:background="@drawable/selcet_rab"
+                    android:layout_weight="1"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:button="@null"
+                    android:text="生活服务"
+                    android:textColor="@color/select_rab1"
+                    android:gravity="center"
+                    android:background="@drawable/selcet_rab"
+                    android:layout_weight="1"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:button="@null"
+                    android:text="便民服务"
+                    android:textColor="@color/select_rab1"
+                    android:gravity="center"
+                    android:background="@drawable/selcet_rab"
+                    android:layout_weight="1"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:button="@null"
+                    android:text="车主服务"
+                    android:textColor="@color/select_rab1"
+                    android:gravity="center"
+                    android:background="@drawable/selcet_rab"
+                    android:layout_weight="1"/>
+            </RadioGroup>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+            <com.example.myapplication.util.MyGridView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mgv"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<include layout="@layout/toolabr"/>
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+          <com.youth.banner.Banner
+              android:layout_width="match_parent"
+              android:id="@+id/banner"
+              android:layout_height="180dp"/>
+                <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textSize="25dp"
+                                android:text="功能中心"/>
+          <com.example.myapplication.util.MyGridView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/mgv"/>
+      </LinearLayout>
+
+
+
+
+  </ScrollView>
+
+
+
+</LinearLayout>

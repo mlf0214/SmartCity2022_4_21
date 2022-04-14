@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolabr"/>
+    <ScrollView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical">
+                          <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:textColor="@color/black"
+                              android:textSize="25dp"
+                              android:text="新闻评论分析"/>
+                          <com.github.mikephil.charting.charts.BarChart
+                              android:layout_width="match_parent"
+                              android:id="@+id/barchart"
+                              android:layout_height="300dp"/>
+                          <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:textColor="@color/black"
+                              android:textSize="25dp"
+                              android:text="车牌照所在地变化分析"/>
+                          <com.github.mikephil.charting.charts.LineChart
+                              android:layout_width="match_parent"
+                              android:layout_height="300dp"
+                              android:id="@+id/linchart"/>
+                          <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:textColor="@color/black"
+                              android:textSize="25dp"
+                              android:text="外卖订餐分类分析"/>
+                          <com.github.mikephil.charting.charts.PieChart
+                              android:layout_width="match_parent"
+                              android:id="@+id/pie"
+                              android:layout_height="300dp"/>
+                          <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:textColor="@color/black"
+                              android:textSize="25dp"
+                              android:text="楼盘总价分析"/>
+                          <com.github.mikephil.charting.charts.HorizontalBarChart
+                              android:layout_width="match_parent"
+                              android:id="@+id/horbarchart"
+                              android:layout_height="300dp"/>
+                      </LinearLayout>
+                  </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/drawable-v24/select_tab2.xml" value="0.1225" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/drawable-v24/select_tab3.xml" value="0.1225" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/drawable-v24/select_tab4.xml" value="0.1225" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/drawable-v24/select_tab5.xml" value="0.1225" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/drawable/btn_bg.xml" value="0.17" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/drawable/ic_init_apps_24.xml" value="0.1225" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/drawable/selcet_rab.xml" value="0.11" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/drawable/select_tab1.xml" value="0.1225" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/drawable/yaun.xml" value="0.1" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/activity_bsfour.xml" value="0.2269021739130435" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/activity_bsthir.xml" value="0.2269021739130435" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/activity_djdt.xml" value="0.17889492753623187" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/activity_dtdate.xml" value="0.26875" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/activity_dtxq.xml" value="0.2269021739130435" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/activity_dyxx.xml" value="0.18365218000502148" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/activity_jyxc.xml" value="0.2754782700075322" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/activity_kdy.xml" value="0.2269021739130435" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/activity_login.xml" value="0.2754782700075322" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/activity_main.xml" value="0.18181818181818182" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/activity_newxq.xml" value="0.17889492753623187" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/activity_psdset.xml" value="0.17889492753623187" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/activity_ssp.xml" value="0.17889492753623187" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/activity_userset.xml" value="0.17889492753623187" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/activity_xxck.xml" value="0.26875" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/activity_yjfk.xml" value="0.17889492753623187" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/activity_zhbs.xml" value="0.2269021739130435" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/activity_zhuce.xml" value="0.26875" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/activity_zzhd.xml" value="0.17889492753623187" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/fargament1.xml" value="0.26875" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/fargament2.xml" value="0.13069908814589665" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/fargament3.xml" value="0.13069908814589665" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/fargament4.xml" value="0.2086956590966153" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/fargament5.xml" value="0.13069908814589665" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/home_server.xml" value="0.26875" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/item2.xml" value="0.17889492753623187" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/itme.xml" value="0.26875" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/newslist.xml" value="0.17889492753623187" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/tab.xml" value="0.2754782700075322" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/tab_item1.xml" value="0.26875" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/toolabr.xml" value="0.26875" />
+        <entry key="..\:/OneDrive - Office365/jnjs/Smartcity4_10/app/src/main/res/layout/zhbslist.xml" value="0.2269021739130435" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

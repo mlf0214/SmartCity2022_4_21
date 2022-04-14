@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<include layout="@layout/toolabr"/>
+<!--    第一步页面：显示站点路线秒点地图、
+起点与重点名称、票价、里程等，具有“下一步”点击按钮以及“返回上级目录”按钮。-->
+<ImageView
+    android:id="@+id/iv"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+                  <TextView
+                      android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:textSize="25dp"
+                      android:textColor="@color/blue"
+                      android:id="@+id/tv_strat"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:src="@drawable/ic_baseline_arrow_right_alt_24"
+                android:layout_weight="1"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="25dp"
+                android:textColor="@color/green"
+                android:id="@+id/tv_end"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textSize="22dp"
+                android:gravity="center"
+                android:id="@+id/tv_price"
+                android:layout_weight="1"/>
+            <TextView
+                android:textSize="22dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/tv_km"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+<Button
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:text="返回上一步"
+    android:id="@+id/btn1"
+    android:background="@drawable/btn_bg"
+    android:layout_height="50dp"/>
+            <Button
+                android:id="@+id/btn2"
+                android:text="下一步"
+                android:background="@drawable/btn_bg"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

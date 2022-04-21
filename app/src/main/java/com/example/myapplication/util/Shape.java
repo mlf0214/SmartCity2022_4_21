@@ -1,6 +1,5 @@
 package com.example.myapplication.util;
 
-import android.content.Context;
 import android.content.SharedPreferences;
 
 public class Shape {
@@ -19,7 +18,6 @@ public class Shape {
     public static void setValue(String key,boolean value){
         editor.putBoolean(key, value).commit();
     }
-
 
     public static String getValue(String key,String value){
 

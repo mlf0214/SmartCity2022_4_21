@@ -95,7 +95,7 @@ public class OkhttpUtil {
 
             @Override
             public void onResponse(Call call, Response response) throws IOException {
-                     okhttplim.onResponse(call, response);
+                okhttplim.onResponse(call, response);
                 String string = response.body().string();
                 okhttplim.getString(string);
             }

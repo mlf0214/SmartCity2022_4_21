@@ -1,7 +1,5 @@
 package com.example.myapplication.ui.activity;
 
-import android.view.View;
-
 import com.example.myapplication.R;
 import com.example.myapplication.bean.DTxqBean;
 import com.example.myapplication.bean.Mesevent;
@@ -98,18 +96,17 @@ public class BsThirActivity extends BaseActivity {
 
     @Override
     protected void initEvent() {
-        mBtn2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Mesevent mesevent = EventBus.getDefault().removeStickyEvent(Mesevent.class);
-                mesevent.setName(mEtName.getText().toString());
-                mesevent.setPhone(mEtPhone.getText().toString());
-                mesevent.setStart(mEtStart.getText().toString());
-                mesevent.setEnd(mEtEnd.getText().toString());
-                EventBus.getDefault().postSticky(mesevent);
-                goActivity(BSfourActivity.class);
-            }
-        });
+        mBtn2.setOnClickListener(v -> sumit());
+    }
+
+    private void sumit() {
+        Mesevent mesevent = EventBus.getDefault().removeStickyEvent(Mesevent.class);
+        mesevent.setName(mEtName.getText().toString());
+        mesevent.setPhone(mEtPhone.getText().toString());
+        mesevent.setStart(mEtStart.getText().toString());
+        mesevent.setEnd(mEtEnd.getText().toString());
+        EventBus.getDefault().postSticky(mesevent);
+        goActivity(BSfourActivity.class);
     }
 
     @Override
